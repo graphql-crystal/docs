@@ -1,0 +1,16 @@
+site_name: graphql-crystal
+site_url: https://graphql-crystal.github.io/docs/
+repo_url: https://github.com/graphql-crystal/docs
+repo_name: GitHub
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - search.suggest
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
