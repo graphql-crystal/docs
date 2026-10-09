@@ -2,6 +2,18 @@ site_name: graphql-crystal
 site_url: https://graphql-crystal.github.io/docs/
 repo_url: https://github.com/graphql-crystal/docs
 repo_name: GitHub
+nav:
+  - Getting started: index.md
+  - Context: context.md
+  - Objects, queries and mutations: objects.md
+  - Input objects: input-objects.md
+  - Enums: enums.md
+  - Scalars: scalars.md
+  - Interfaces and unions: interfaces-and-unions.md
+  - Subscriptions: subscriptions.md
+  - Annotation arguments: annotations.md
+  - Errors: errors.md
+  - Upgrading from 0.4: upgrading.md
 theme:
   name: material
   features:
